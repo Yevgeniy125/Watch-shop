@@ -1,0 +1,386 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Taviraj', serif;
+}
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+}
+/* header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 87px;
+}
+
+.logo, .login {
+    display: flex;
+    align-items: center;
+    padding-top: 27px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 429px;
+}
+
+.logo__text {
+    font-family: 'Taviraj';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 68px;
+    letter-spacing: 0.02em;
+    color: #333333;
+    padding-left: 42px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding-top: 34px;
+}
+
+.navigation__link {
+    text-decoration: none;
+    font-family: 'Taviraj';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0.02em;
+    color: #333333;
+    padding-top: 34px;
+}
+
+.login { 
+    width: 261px;
+    padding-right: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login__btn {
+    display: flex;
+    align-items: center;
+}
+
+.login__btn-text {
+    padding-left: 8px;
+    text-decoration: none;
+    font-family: 'Taviraj';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    letter-spacing: 0.02em;
+    color: #333333;
+}
+
+/* hero */
+
+.hero__contents {
+    width: 1010px;
+    border: 2px solid #fff;
+    background-color: #3AAFA9;
+    border-radius: 25px;
+    margin-left: 265px;
+}
+
+.contents__title {
+    width: 414px;
+    margin-left: 280px;
+    margin-top: 56px;
+
+    font-family: 'Taviraj';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 80px;
+    letter-spacing: 0.02em;
+    color: #333333;
+    
+}
+
+.contents__line {
+    width: 95px;
+    margin-left: 280px;
+    border-top: 1px solid #000;
+    margin-top: 8px;
+}
+
+.contents__p {
+    width: 529px;
+    margin-left: 280px;
+    margin-top: 24px;
+
+    font-family: 'Taviraj';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    color: #333333;
+}
+
+.contents__a {
+    width: 74px;
+    margin-left: 280px;
+    margin-top: 17px;
+
+    font-family: 'Taviraj';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+    color: #333333;
+}
+
+.hero__contents-menu {
+    margin-left: 280px;
+    display: flex;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.menu__choice {
+    display: flex;
+    gap: 12px;
+    position: relative;
+    top: 15px;
+}
+
+.menu__addToCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 229px;
+    margin-left: 37px;
+    padding: 14px 0 14px 0;
+
+    font-family: 'Taviraj';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0.02em;
+    color: #000000;
+
+    background: #DEF2F1;
+    border: 0 solid #DEF2F1;
+    border-radius: 10px;
+}
+
+.choice__minus {
+    width: 31px;
+    height: 31px;
+    padding-bottom: 4px;
+
+    background: #DEF2F1;
+    border: 0 solid #DEF2F1;
+    border-radius: 5px;
+}
+
+.choice_p {
+    font-family: 'Taviraj';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0.02em;
+    color: #333333;
+}
+
+.choice__plus {
+    width: 31px;
+    height: 31px;
+    padding-top: 6px;
+
+    background: #DEF2F1;
+    border: 0 solid #DEF2F1;
+    border-radius: 5px;
+}
+
+.addToCard__back {
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    background: #3AAFA9;
+}
+
+.addToCard__img {
+    position: relative;
+    bottom: 2px;
+}
+
+.menu__buy {
+    width: 139px;
+    margin-left: 9px;
+
+    font-family: 'Taviraj';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0.02em;
+    color: #000000;
+
+    background: #DEF2F1;
+    border: 0 solid #DEF2F1;
+    border-radius: 10px;
+}
+
+.hero__btns-choice{
+    display: flex;
+    width: 135px;
+    gap: 15px;
+    margin-left: 39px;
+    position: relative;
+    top: 95px;
+}
+
+.choice__left, .choice__right {
+    width: 60px;
+    height: 60px;
+
+    background: #DEF2F1;
+    border: 0 solid #DEF2F1;
+    border-radius: 10px;
+}
+
+.choice__left {
+    padding-top: 10px;
+}
+
+.choice__right{
+    padding-top: 10px;
+    padding-left: 3px;
+}
+
+.watch__img {
+    position: absolute;
+    left: 273px;
+    top: 231px;
+}
+
+/* main */
+
+.main__content {
+    margin-top: 211px;
+    margin-left: 165px;
+    display: flex;
+}
+
+.content_glasses {
+    width: 540px;
+    background: #3AAFA9;
+        border-radius: 15px;
+}
+
+.content_glasses h3 {
+    width: 269px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+
+    font-family: 'Taviraj';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 0.03em;
+    color: #333333;
+}
+
+.glasses__p {
+    width: 345px;
+    margin-top: 8px;
+
+    font-family: 'Taviraj';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.content_glasses a {
+    width: 115px;
+
+    font-family: 'Taviraj';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+    color: #333333;
+}
+
+.content_watch {
+    width: 540px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    background: #3AAFA9;
+    border-radius: 15px;
+    margin-left: 30px;
+    text-align: end;
+}
+
+.text__bold {
+    font-weight: bold;
+}
+
+.content_watch h3 {
+    width: 306px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    
+    font-family: 'Taviraj';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 0.03em;
+    color: #333333;
+}
+
+.watch__p {
+    width: 345px;
+    margin-top: 8px;
+    margin-right: 40px;
+
+    font-family: 'Taviraj';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.content_watch a {
+    width: 115px;
+    margin-top: 7px;
+    margin-right: 40px;
+
+    font-family: 'Taviraj';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+    color: #333333;
+}
